@@ -6,7 +6,7 @@ public class Nguoi {
     String diaChi;
     int gioiTinh;
 
-    public nguoi(){
+    public Nguoi(){
     }
 
     public String getNamSinh() {

@@ -35,7 +35,7 @@ public class HocSinh extends Nguoi {
         MaHS = maHS;
     }
 
-    public HocSinh(String hoTen, String namSinh, String diaChi, String gioiTinh, String maHS, int soBuoiVangMat, int soLanDiMuon){
+    public HocSinh(String hoTen, String namSinh, String diaChi, int gioiTinh, String maHS, int soBuoiVangMat, int soLanDiMuon){
         super(hoTen, diaChi, namSinh, gioiTinh);
         this.MaHS = maHS;
         this.SoBuoiVangMat = soBuoiVangMat;
